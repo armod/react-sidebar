@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.modal-container {
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+  display: grid;
+  position: relative;
+}
+
+.modal-overlay {
+  position: fixed;
+  place-items: center;
+  visibility: hidden;
+  z-index: -1;
+}
+
+.show-modal {
+  visibility: visible;
+  z-index: 10;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.sidebar {
+  position: fixed;
+  display: grid;
+  background: gray;
+  row-gap: 1rem;
+  transform: translate(-100%);
+}
+
+.show-sidebar {
+  transform: translate(0);
+}
