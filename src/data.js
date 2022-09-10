@@ -5,7 +5,8 @@ import {
   FaLinkedin,
   FaTwitter,
   FaHome,
-  FaUserFriend,
+  FaUserFriends,
+  FaUserNinja,
   FaCalendarAlt,
 } from 'react-icons/fa'
 
@@ -20,7 +21,7 @@ export const links = [
     id: 2,
     url: '/about',
     text: 'about',
-    icon: <FaHome />,
+    icon: <FaUserFriends />,
   },
   {
     id: 3,
@@ -32,13 +33,13 @@ export const links = [
     id: 4,
     url: '/contact',
     text: 'contact',
-    icon: <FaHome />,
+    icon: <FaCalendarAlt />,
   },
   {
     id: 5,
     url: '/profile',
     text: 'profile',
-    icon: <FaHome />,
+    icon: <FaUserNinja />,
   },
 ]
 

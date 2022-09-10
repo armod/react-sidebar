@@ -2,12 +2,13 @@ import React from 'react'
 import { FaTimes } from 'react-icons/fa'
 import { icons } from 'react-icons/lib'
 import { social, links } from './data'
+import logo from './logo.svg'
 
 export const Sidebar = () => {
   return (
     <aside className={`sidebar show-sidebar`}>
       <div className='sidebar-header'>
-        <img src='' className='logo' alt='coding' />
+        <img src={logo} className='logo' alt='coding' />
         <button className='close-btn'>
           <FaTimes />
         </button>
